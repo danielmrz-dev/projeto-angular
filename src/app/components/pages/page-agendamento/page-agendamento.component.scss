@@ -8,15 +8,16 @@
 .container::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -350px;
+    left: -200px;
+    width: 100rem;
+    height: 300vh;
     background-image: url(../../../../assets/background_tela-de-login.jpeg);
     background-size: cover;
     background-position: center;
-    filter: contrast(70%);
+    filter: contrast(70%) ;
     z-index: -1;
+  
 }
 
 .container p {
