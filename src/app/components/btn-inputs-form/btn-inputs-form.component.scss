@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     max-width: 1200px;
     margin: auto;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     label {
@@ -20,7 +20,7 @@
     }
 
     #form-select {
-        width: 1200px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -37,7 +37,7 @@
             padding: 1rem;
             border: none;
             border-radius: 5px;
-            background-color: var.$Rosa-avermelhado-opaco;
+            background-color:  rgba(255, 255, 255, 0.10);
             color: var.$Branco;
             height: 50px;
             
@@ -48,7 +48,7 @@
             }
             input, select {            
                 display: flex;
-                padding: .5rem;
+                padding: 0.5rem;
                 justify-content: center;
                 cursor: pointer;
             }
@@ -80,7 +80,7 @@
         cursor: pointer;
         transition: opacity .3s ease;
         &:hover {
-            opacity: .7;
+            opacity: 0.7;
         };
     }
 }

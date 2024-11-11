@@ -4,7 +4,7 @@
     margin: auto;
     border: none;
     min-width: 500px;
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 5px;
     background-color: var.$Preto;
     color: var.$Branco;
@@ -13,24 +13,26 @@
     }
     &__titulo {
         text-align: center;
-        font-size: 1.25rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        gap: 20px;
     }
     &__info-container {
         display: flex;
         flex-direction: column;
-        gap: .75rem;
+        gap: 1rem;
         .pagamento-container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding: 1rem 0;
         }
     }
     &__info-dado {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem;
+        padding: 1rem;
         border-radius: 5px;
         &:nth-child(even) {
             background-color: var.$Rosa-avermelhado-opaco;
@@ -38,18 +40,18 @@
     }
     &__btn-confirma-pagamento {
         width: fit-content;
-        margin: 1rem auto 0;
-        padding: .5rem 1rem;
+        margin: 1.5rem auto 0;
+        padding: 0.75rem 1rem;
         border-radius: 5px;
         background-color: var.$Rosa-avermelhado;
         color: var.$Branco;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 700;
         cursor: pointer;
         border: none;
         outline: none;
     }
     &__spinner {
-        margin: 1rem auto;
+        margin: 1.5rem auto;
     }
 }
