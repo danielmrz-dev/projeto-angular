@@ -1,10 +1,31 @@
- # Sistema de Salão de Beleza
+<h1 align="center">Sistema de Salão de Beleza</h1>
 
-<h3 align="center"> Projeto Angular I - Santander Corders 2024</h3>
- <p align="center"> <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#-como-executar-o-projeto">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#-estrutura-do-projeto">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#-equipe">Equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
- <a href="#-licença">Licença</a> </p> <p align="center"> <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielmrz-dev/projeto-angular-I?color=%2304D361"> <img alt="Repository size" src="https://img.shields.io/github/repo-size/danielmrz-dev/projeto-angular-I"> <a href="https://github.com/danielmrz-dev/projeto-angular-I/commits/main"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielmrz-dev/projeto-angular-I"> </a> <a href="https://github.com/danielmrz-dev/projeto-angular-I/stargazers"> <img alt="Stargazers" src="https://img.shields.io/github/stars/danielmrz-dev/projeto-angular-I?style=social"> </a> </p>
+<h3 align="center">Projeto Angular I - Santander Coders 2024</h3>
 
-# 💻 Sobre o Projeto
+<p align="center">
+  <a href="#sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-executar-o-projeto">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#estrutura-do-projeto">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#equipe">Equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licenca">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielmrz-dev/projeto-angular-I?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/danielmrz-dev/projeto-angular-I">
+  <a href="https://github.com/danielmrz-dev/projeto-angular-I/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielmrz-dev/projeto-angular-I">
+  </a>
+  <a href="https://github.com/danielmrz-dev/projeto-angular-I/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/danielmrz-dev/projeto-angular-I?style=social">
+  </a>
+</p>
+
+---
+
+## 🚀 Sobre o Projeto <a id="sobre-o-projeto"></a>
 
 O Sistema de Salão de Beleza foi desenvolvido durante o curso Angular I do Santander Coders 2024, com orientação do professor Michael Douglas Barbosa Araujo. O sistema simula um fluxo de agendamento em um salão de beleza, permitindo ao usuário selecionar serviços, data, horário e profissional em uma interface moderna e interativa.
 
@@ -163,5 +184,7 @@ Integração com banco de dados para persistência dos agendamentos.
 
 
 ## 📝 Licença
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e contribuir! 😊
+
+
 
