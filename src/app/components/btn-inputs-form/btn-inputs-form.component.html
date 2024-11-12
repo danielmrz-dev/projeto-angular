@@ -8,8 +8,7 @@
         <fieldset class="style-forms">         
             <label for="service"> Serviço: </label>
             <select id="service" formControlName="service" [(ngModel)]="agendamento.servico">
-                <option value="" selected disabled>Selecione o serviço</option>
-                <option value="corte">Corte de cabelo - R$50,00</option>
+                <option value="corte" selected>Corte de cabelo - R$50,00</option>
                 <option value="coloracao">Coloração e Mechas - R$150,00</option>
                 <option value="manicure-pedicure">Manicure e Pedicure - R$40,00</option>
                 <option value="penteados">Escova e Penteados - R$80,00</option>
@@ -35,7 +34,6 @@
         <fieldset class="style-forms">
             <label for="professional"> Profissional </label>
             <select id="professional" formControlName="professional" [(ngModel)]="agendamento.profissional">
-                <option value="" selected disabled>Selecione o profissional</option>
                 <option value="cezaniltom">Cezaniltom</option>
                 <option value="daniel">Daniel</option>
                 <option value="felipe">Felipe</option>
