@@ -126,7 +126,7 @@ src/
 
 - **scss:** Diretório para os arquivos SCSS globais do projeto, para estilos que não estão em componentes específicos.
 
-- **services:** Serviços que encapsulam a lógica de negócios e comunicação com APIs.
+- **services:** Serviços que encapsulam a lógica de compartilhamento de dados entre componentes.
 
 
 ---
