@@ -8,13 +8,13 @@
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-executar-o-projeto">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#estrutura-do-projeto">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#equipe">Equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licenca">Licença</a>
 </p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielmrz-dev/projeto-angular-I?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/danielmrz-dev/projeto-angular-I">
   <a href="https://github.com/danielmrz-dev/projeto-angular-I/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielmrz-dev/projeto-angular-I">
   </a>
@@ -29,15 +29,13 @@
 
 O Sistema de Salão de Beleza foi desenvolvido durante o curso Angular I do Santander Coders 2024, com orientação do professor Michael Douglas Barbosa Araujo. O sistema simula um fluxo de agendamento em um salão de beleza, permitindo ao usuário selecionar serviços, data, horário e profissional em uma interface moderna e interativa.
 
-## Objetivos do Projeto
+### Objetivos do Projeto
 - **Interface Simulada:** Tela de login, boas-vindas e agendamento.
 - **Fluxo Completo de Agendamento:** Seleção de serviço, data, horário e profissional.
 - **Confirmação de Pagamento:** Modal de confirmação com feedback visual.
 - **Trabalho em Equipe:** Uso de Git e GitHub para versionamento e colaboração.
 
-
-
-# ⚙️ Funcionalidades
+# ⚙️ Funcionalidades <a id="funcionalidades"></a>
 
 1. **Tela de Login:** O usuário insere um nome de usuário e senha para acessar o sistema.
 2. **Tela de Boas-Vindas:** Após o login, é exibida uma saudação personalizada com o nome do usuário.
@@ -47,8 +45,7 @@ O Sistema de Salão de Beleza foi desenvolvido durante o curso Angular I do Sant
 4. **Resumo do Agendamento:** Mostra um resumo com opção de confirmação.
 5. **Confirmação de Pagamento:** Ao confirmar, abre-se um modal de feedback indicando que o pagamento foi recebido com sucesso.
 
-
-# 🎨 Layout
+# 🎨 Layout <a id="layout"></a>
 O layout foi desenvolvido com **Angular Material**, utilizando componentes como `mat-select`, `mat-datepicker`, `mat-dialog`, 
  entre outros. Aqui estão algumas das principais telas: entre outros, para manter a consistência visual e a usabilidade da aplicação. Abaixo estão as telas principais:
 
@@ -57,7 +54,7 @@ O layout foi desenvolvido com **Angular Material**, utilizando componentes como 
 * 3. Resumo e Confirmação de Agendamento
 * 4. Tabela de Agendamentos com Opção de Confirmação de Pagamento
 
-# 🚀 Como Executar o Projeto
+# 🚀 Como Executar o Projeto <a id="como-executar-o-projeyo"></a>
 
 ### 💡Pré-requisitos
 
@@ -68,7 +65,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 - [Angular CLI](https://angular.io/cli): Ferramenta de linha de comando para criar, construir e gerenciar projetos Angular.
 
 Além disso, é recomendado o uso de um editor de código, como [VSCode](https://code.visualstudio.com/).
-
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
@@ -84,13 +80,12 @@ $ cd projeto-angular-I
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ ng serve
+$ ng serve -o
 
 # A aplicação será aberta na porta:4200 -acesse: http://localhost:4200
 ```
 
-
-## 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto <a id="estrutura-do-projeto"></a>
 ```bash
 src/
 ├── app/
@@ -126,11 +121,11 @@ src/
 
 - **scss:** Diretório para os arquivos SCSS globais do projeto, para estilos que não estão em componentes específicos.
 
-- **services:** Serviços que encapsulam a lógica de negócios e comunicação com APIs.
+- **services:** Serviços que encapsulam a lógica de compartilhamento de dados entre componentes.
 
 
 ---
-## 🛠 Tecnologias
+## 🛠 Tecnologias <a id="tecnologias"></a>
 - **Componentes Angular:** Estrutura modular para a interface.
 - **Rotas:** Gerenciamento de navegação entre as telas de login, agendamento e pagamento.
 - **Angular Material:** Design consistente usando a biblioteca Material para Angular.
@@ -142,13 +137,13 @@ O projeto está hospedado no Vercel.
 <br>
 Acesse aqui: https://projeto-angular-i.vercel.app/
 
-FAL
+
 
 
 ## 📝 Observações e Melhorias Futuras
 - Implementação de autenticação com backend para maior segurança.
-Otimização para dispositivos móveis.
-Integração com banco de dados para persistência dos agendamentos.
+- Otimização para dispositivos móveis.
+- Integração com banco de dados para persistência dos agendamentos.
 
 ## 💪 Como contribuir para o projeto
 
@@ -159,7 +154,7 @@ Integração com banco de dados para persistência dos agendamentos.
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ---
-## 👨‍💻 Tech Lead
+## 👨‍💻 Tech Lead <a id="equipe"></a>
 
 <table>
   <tr>
@@ -183,8 +178,6 @@ Integração com banco de dados para persistência dos agendamentos.
 </table>
 
 
-## 📝 Licença
+
+## 📝 Licença <a id="licença"></a>
 Esse projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e contribuir! 😊
-
-
-
