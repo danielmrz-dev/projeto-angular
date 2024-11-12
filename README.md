@@ -155,7 +155,7 @@ Acesse aqui: https://projeto-angular-i.vercel.app/
 
 <table>
   <tr>
-    <td align="center"><a "href="https://www.linkedin.com/in/michaeldouglasbarbosa/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/2530054?v=4"width="100px;" alt=""/><br /><sub><b>Michael Douglas Barbosa Araujo</b></sub></a><br /><a href="https://www.linkedin.com/in/michaeldouglasbarbosa/" title="Linkedin">👨‍🚀</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/michaeldouglasbarbosa/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/2530054?v=4"width="100px;" alt=""/><br /><sub><b>Michael Douglas Barbosa Araujo</b></sub></a><br /><a href="https://www.linkedin.com/in/michaeldouglasbarbosa/" title="Linkedin">👨‍🚀</a></td>
 </tr>
 </table>
 
